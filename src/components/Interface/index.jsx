@@ -18,7 +18,7 @@ import {
 export const Interface = () => {
     return(
    
-        <main className="lg:flex justify-around items-center mt-20 w-full h-full px-15 py-10 lg:py-0">
+        <main className="lg:flex justify-around items-center mt-20 w-full h-full px-5 lg:px-15 py-10 lg:py-0">
             <div className="flex lg:flex-col gap-5">
 
                 <SiLinkedin size={50} color="#fff" className="hover:scale-105 duration-300 transition-all ease-in-out"/>
