@@ -6,7 +6,7 @@ export const ProjectsComponent = () => {
             {projects.map((projeto) => (
                 <section key={projeto.id} className="hover:scale-110 duration-300 transition-all ease-in-out">
                     <article className="border w-full flex items-center justify-center flex-col border-white rounded-xl px-2 py-2">
-                         <h1 className="text-white text-xl text-center pt-5 mb-5">{projeto.projectName}</h1>
+                         <h1 className="text-white text-xl text-center lg:pt-0 pt-5 mb-5 lg:mb-0">{projeto.projectName}</h1>
                         <img 
                         src={projeto.projectImage} 
                         alt={projeto.projectName}
@@ -15,7 +15,7 @@ export const ProjectsComponent = () => {
                        
                         <p className="text-white md:line-clamp-2 lg:line-clamp-2 lg:max-w-70 text-center pt-5">{projeto.description}</p>
 
-                        <button className="bg-white flex items-center w-full justify-center rounded-md font-medium text-lg mt-10">
+                        <button className="bg-white flex items-center w-full justify-center rounded-md font-medium text-lg lg:mt-0 mt-10">
                                 <a target="_blank" href={projeto.link}>
                                 acessar
                             </a>
