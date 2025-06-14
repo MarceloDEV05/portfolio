@@ -2,7 +2,7 @@ import projects from "../../projects"
 
 export const ProjectsComponent = () => {
     return(
-        <div className="grid grid-cols-2 gap-5 w-full max-w-160 h-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full max-w-160 h-full mt-10">
             {projects.map((projeto) => (
                 <section key={projeto.id}>
                     <article className="border flex items-center justify-center flex-col border-white rounded-md p-4">

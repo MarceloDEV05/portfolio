@@ -5,7 +5,7 @@ function App() {
  
 
   return (
-    <main className="bg-black flex flex-col w-full ">
+    <main>
       <Header/>
       <Interface/>
     </main>
