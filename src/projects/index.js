@@ -9,7 +9,7 @@ const projects = [
         projectName: 'Erivelton AutoCenter',
         projectImage: imagem1,
         description: 'Landing Page Desenvolvida para uma Auto Center com React JS, TailwindCSS',
-        link: 'http://erivelton-autocenter.vercel.app'
+        link: 'https://www.eriveltonautocenter.com.br/'
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ const projects = [
     },
     {
         id: 4,
-        projectName: 'login',
+        projectName: 'Login',
         projectImage: imagem4,
         description: 'Sistema de login desenvolvido com React JS, TailwindCSS, React-icons, React-toastfy e integração com banco de dados Firebase',
         link: 'http://login-nu-ruddy.vercel.app'
